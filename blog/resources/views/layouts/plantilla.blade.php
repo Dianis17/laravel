@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>@yield('title')</title>
     <!-- favicon -->
     <!-- estilos -->
 </head>
 <body>
     <!-- header -->
     <!-- nav -->
-    <h1>Bienvenido a la pagina principal</h1>
+    @yield('content')
 
     <!-- footer -->
 
     <!-- script -->
 
 
-<!--video 6 minuto 10:05 -->
+
 
 </body>
 </html>
